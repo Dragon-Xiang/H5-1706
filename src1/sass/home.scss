@@ -1,0 +1,37 @@
+//Sass语法
+/*
+	sass的使用
+	* 兼容所有css语法
+	* 变量、嵌套、混合、继承等
+ */
+
+
+// 全局变量
+// $mainColor:#58bc5b;
+// $bgColor:#fc0;
+// $title1:20px;
+
+
+
+// .box{
+// 	//局部变量
+// 	$box-width:300px;
+
+// 	width:$box-width;padding:10px;background:$bgColor;
+
+// 	//嵌套
+// 	h1{padding-bottom:10px;color:#fff;font-size:$title1;border-bottom:1px solid $mainColor;}
+// 	ul{
+// 		list-style:none;padding:0;margin:0;
+// 		li{border-bottom:1px dotted #ddd;}
+// 	}
+
+// }
+
+//局部变量不能在外部使用
+// .content{width:$box-width;}
+.footer_top{border-top:2px solid #D21F01;height: 152px;
+	ul{height: 100%;
+		li{float:left;width: 314px}
+	}
+}
