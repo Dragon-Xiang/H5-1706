@@ -1,7 +1,0 @@
-@charset "UTF-8";
-/* sass的使用 兼容所有css语法 变量、嵌套、混合、继承等 */
-.footer_top { border-top: 2px solid #D21F01; height: 152px; }
-
-.footer_top ul { height: 100%; }
-
-.footer_top ul li { float: left; width: 314px; }

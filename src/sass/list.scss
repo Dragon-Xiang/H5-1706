@@ -1,0 +1,203 @@
+#nav{
+    height: 34px;
+    h4{
+        height: 34px;
+        background:#D71E00;
+        border-bottom:2px solid #AA1800;
+        .nav_top{
+            height: 34px;
+            li{
+                float:left;
+                height: 100%;
+                text-align: center;
+                font-size:17px;
+                line-height: 38px;
+                a{display:inline-block;
+                padding:0 16px;
+                color:white;            
+                height: 34px;
+                }              
+            }
+            li:first-child{
+                width: 236px;
+                background:#AA1800;
+                color:white;
+                margin-right:4px;
+            }
+            li:hover{
+                background:#AA1800;
+                color:white;
+            }    
+        }   
+    }
+}
+#main{
+    .main_l{
+        width: 962px;
+        h5{
+            height: 42px;
+            line-height: 33px;
+            span:nth-child(1){
+                padding-left:20px;
+            }
+            span:nth-child(2){
+                color:red;
+                font-size:18px;
+            }
+        }
+        >p{
+            height: 32px;
+            line-height: 32px;
+            border:1px dashed #DAE0FE;
+            >span{
+                padding-right:34px;
+            }
+            >span:nth-child(1){
+                display:inline-block;
+                width: 96px;
+                background:#F7F7F7;
+                text-align: center;
+            }
+            span:last-child{
+                float:right;
+            }
+        }
+        .paixu{
+            height: 38px;
+            margin-top:20px;
+            margin-bottom:16px;
+            button{
+                width: 76px;
+                border:1px solid #ccc;
+                height: 38px;
+                line-height: 38px;
+                text-align: center;
+                background:white;
+                position:relative;
+                .gao{
+                    display:inline-block;
+                    height: 18px;
+                    width: 18px;
+                    position:absolute;
+                    top:0px;
+                    right:0px;
+                    background-color:yellow;
+                    background:url('../images/list/gao.png');
+                }
+                .di{
+                    display:inline-block;
+                    height: 20px;
+                    width: 18px;
+                    position:absolute;
+                    top:17px;
+                    right:0px;
+                    background-color:pink;
+                    background:url('../images/list/di.png');
+                }
+            }
+        }
+        .goods_box{
+            li{
+                width: 232px;
+                height: 338px;
+                float:left;
+                border:1px solid #ccc;
+                margin-right:8px;
+                margin-top:8px;
+                img{
+                    width: 100%;
+                    height: 236px;
+                }
+                p:nth-of-type(1){
+                    padding:0 6px;
+                    margin-top:8px;
+                    margin-bottom:8px;
+                    color:black;
+                }
+                p:nth-of-type(2){
+                    height: 30px;
+                    padding-left:6px;
+                    line-height: 30px;
+                    span:nth-child(2){
+                        font-size:16px;
+                        color:red;
+                        padding-left:8px;
+                    }
+                    button{
+                        width: 80px;
+                        height: 30px;
+                        background:#DB4026;
+                        color:white;
+                        text-align: center;
+                        float:right;
+                    }
+                }   
+            }
+        }
+        .page{
+                float:right;
+            >span{
+                display:inline-block;
+                margin:10px 5px;
+                width:40px;
+                line-height:3;
+                text-align: center;
+                background-color:#dfdfdf;
+                color:#666;
+            }
+            .active{
+                background:orange;
+            }
+        }
+    }
+    .main_r{
+      width: 230px;
+      border:1px solid #ccc;
+      margin-top:10px;
+        a{
+        display:block;
+        height: 30px;
+        width: 100%;
+        background:#DB4026;
+        color:white;
+        line-height: 30px;
+        text-align: center;
+        }
+        .fly_box{
+            li{
+                position:relative;
+                border-bottom:1px solid #ccc;
+                .close{
+                    position:absolute;
+                    top:0px;
+                    right:0px;
+                    font-size:40px;
+                }
+                .close:hover{
+                    background-color:#f00;
+                    color:#fff;
+                }
+                img{
+                    height: 164px;
+                    margin-left:35px;
+                }
+                p:nth-of-type(1){
+                        padding:0 12px;
+                        margin-top:8px;
+                        margin-bottom:8px;
+                        color:black;
+                    }
+                p:nth-of-type(2){
+                    height: 30px;
+                    padding-left:16px;
+                    line-height: 30px;
+                    span:nth-child(2){
+                        font-size:16px;
+                        color:red;
+                        padding-left:8px;
+                    }
+                }                   
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+#logo img { margin-top: 24px; margin-left: 66px; }
+
+#register { height: 450px; }
+
+#register img { margin-top: 24px; margin-left: 198px; }
+
+#register .zhuce { width: 312px; height: 266px; border: 1px solid #ccc; margin-right: 196px; margin-top: 24px; padding: 17px 17px; }
+
+#register .zhuce #password, #register .zhuce #username { width: 275px; height: 33px; border: 1px solid #ccc; font-size: 16px; margin-bottom: 27px; }
+
+#register .zhuce .forget { color: blue; float: right; }
+
+#register .zhuce button { width: 275px; height: 33px; text-align: center; line-height: 33px; color: white; background: #CA1622; margin-top: 6px; margin-bottom: 16px; }
+
+#register .zhuce p { padding-left: 22px; position: relative; }
+
+#register .zhuce p .wechat { position: absolute; display: block; width: 18px; height: 22px; background: url("../images/register/wechat.png"); left: 0px; top: -1px; }
+
+#register .zhuce p span:nth-child(1) { float: left; }
+
+#register .zhuce p span:nth-child(2) { float: right; color: blue; }

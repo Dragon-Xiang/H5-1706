@@ -2,17 +2,2296 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
-	<title>Document</title>
-	<link rel="stylesheet" type="text/css" href="css/.index.css" />
+	<title>Document</title>	
 	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<link rel="stylesheet" type="text/css" href="css/footer.css" />
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
 	<script type="text/javascript"src="js/jquery-3.2.1.js"></script>
-	<script type="text/javascript">
-		jQuery(function($){
-			$('#footer').load('html/footer.html');
-		});
-	</script>
+	<script type="text/javascript"src="js/common.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript"src="js/jquery.lyCarousel.js"></script>
+	
 </head>
 <body>
-	<div id="footer"> </div>
+	<div id="header">
+		<div class="header_top">
+			<div class="container">
+				<div class="header_l fl">
+					<span class="iconfont icon-shouye"></span>
+					<span>多商网首页</span>
+					<span>您好，欢迎来到多商网!</span>
+					<span><a href="html/login.html">[请登录]</a></span>
+					<span><a href="html/register.html">[免费注册]</a></span>
+
+				</div>
+				<div class="header_r fr">
+					<p><span class="iconfont icon-gouwuche1"></span><a href="html/car.html">购物车</a></p>
+					<p><span class="iconfont icon-dianhua"></span>多商网APP</p>
+				</div>
+			</div>
+		</div>
+		<div class="header_b">
+			<div class="container">
+				<div class="search_box fl">
+					<input type="text"id="search"placeholder="陈翔龙贼帅啊啊啊啊啊啊啊啊啊啊啊"/>
+					<button class="fr">搜索</button>
+					<h5>
+						<span>热门搜索：</span><span>打底衫</span>
+						<span>童装裙裤</span>
+						<span>连体裙</span>
+						<span>童装T恤</span>
+						<span>NIKE</span>
+						<span>阿迪达斯</span>
+						<span>彪马</span>
+						<span>美斯特邦威</span>
+						 
+					</h5>
+				</div>
+				<div class="tupian fr">
+					<img src="images/index/h1.jpg"/>
+					<img src="images/index/h2.jpg"/>
+					<img src="images/index/h3.jpg"/>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="nav">
+		<h4>
+			<div class="container">
+				<ul class="clearfix nav_top">
+					<li>全部商品分类</li>
+					<li><a href="#">首页</a></li>
+					<li><a href="#">报活动</a></li>
+					<li><a href="#">女装</a></li>
+					<li><a href="#">男装</a></li>
+					<li><a href="#">箱包</a></li>
+					<li><a href="#">鞋靴</a></li>
+					<li><a href="#">美妆</a></li>
+					<li><a href="#">母婴</a></li>
+					<li><a href="#">家电</a></li>
+					<li><a href="#">食品</a></li>
+					<li><a href="#">内衣</a></li>
+					<li><a href="#">家居用品</a></li>
+					<li><a href="#">多商学院</a></li>
+				</ul>
+			</div>			
+		</h4>
+		<div class="container clearfix">
+			<ul class="nav_l fl">
+				<li>
+					<div class="liSmall">
+						<p>
+							<a href="#">
+								<span class="iconfont icon-shishangnvzhuang"></span>
+								时尚女装
+							</a>
+							<span class="you"></span>
+						</p>
+						<p>
+							<a href="#">上衣</a>
+							<a href="#">裙子</a>
+							<a href="#">针织毛衣</a>
+							<a href="#">裤子</a>
+						</p>
+						<div class="hover">
+							<div class="hover_l fl">
+								<ul>
+									<li>
+										<p><a href="#">| 上衣：</a></p>
+										<p>
+											<span><a href="#">T恤</a></span>
+											<span><a href="#">卫衣</a></span>
+											<span><a href="#">衬衫</a></span>
+											<span><a href="#">雪纺/波罩</a></span>
+											<span><a href="#">背心</a></span>
+											<span><a href="#">T恤</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 裙子：</a></p>
+										<p>
+											<span><a href="#">连衣裙</a></span>
+											<span><a href="#">半身裙</a></span>
+											<span><a href="#">长裙</a></span>
+											<span><a href="#">套装裙</a></span>
+											<span><a href="#">背带裙</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 针织毛衣</a></p>
+										<p>
+											<span><a href="#">开衫</a></span>
+											<span><a href="#">套头</a></span>
+											<span><a href="#">毛衫外套</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 裤子：</a></p>
+										<p>
+											<span><a href="#">休闲裤</a></span>
+											<span><a href="#">哈伦裤</a></span>
+											<span><a href="#">打底裤</a></span>
+											<span><a href="#">休闲短裤</a></span>
+											<span><a href="#">小短裤</a></span>
+											<span><a href="#">牛仔裤</a></span>
+											<span><a href="#">套装裤</a></span>
+											<span><a href="#">牛仔短裤</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 外套：</a></p>
+										<p>
+											<span><a href="#">风衣</a></span>
+											<span><a href="#">马甲</a></span>
+											<span><a href="#">小西装</a></span>
+											<span><a href="#">皮革</a></span>
+											<span><a href="#">XX外套</a></span>
+											<span><a href="#">T恤</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 特色服装：</a></p>
+										<p>
+											<span><a href="#">瑜伽服</a></span>
+											<span><a href="#">时尚套装</a></span>
+											<span><a href="#">中年套装</a></span>
+											<span><a href="#">运动裤</a></span>
+											<span><a href="#">礼服</a></span>
+											<span><a href="#">情侣服</a></span>
+											<span><a href="#">旗袍</a></span>
+											<span><a href="#">隐身装</a></span>
+										</p>
+									</li>
+								</ul>
+							</div>
+							<div class="hover_r fr">
+								<img src="images/index/hover1.jpg" /><br />
+								<img src="images/index/hover2.jpg" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="liSmall">
+						<p>
+							<a href="#">
+								<span class="iconfont icon-4"></span>
+								箱包配饰
+							</a>
+							<span class="you"></span>
+						</p>
+						<p>
+							<a href="#">女包</a>
+							<a href="#">双肩包</a>
+							<a href="#">男包</a>
+							<a href="#">功能箱包</a>
+						</p>
+						<div class="hover">
+							<div class="hover_l fl">
+								<ul>
+									<li>
+										<p><a href="#">| 女包：</a></p>
+										<p>
+											<span><a href="#">单肩包</a></span>
+											<span><a href="#">女士钱包</a></span>
+											<span><a href="#">真皮包</a></span>
+											<span><a href="#">手提包</a></span>
+											<span><a href="#">小方包</a></span>
+											<span><a href="#">手拿包</a></span>
+											<span><a href="#">晚宴包</a></span>
+											<span><a href="#">斜挎包</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 双肩包：</a></p>
+										<p>
+											<span><a href="#">出街潮搭</a></span>
+											<span><a href="#">户外休闲</a></span>
+											<span><a href="#">帆布</a></span>
+											<span><a href="#">儿童背包</a></span>
+											<span><a href="#">很帅的包</a></span>
+											<span><a href="#">陈翔龙的包</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 男包：</a></p>
+										<p>
+											<span><a href="#">男士钱包</a></span>
+											<span><a href="#">胸包</a></span>
+											<span><a href="#">腰包</a></span>
+											<span><a href="#">单肩包</a></span>
+											<span><a href="#">斜挎包</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 功能箱包：</a></p>
+										<p>
+											<span><a href="#">拉杆箱</a></span>
+											<span><a href="#">卡包</a></span>
+											<span><a href="#">旅行袋</a></span>
+											<span><a href="#">钥匙包</a></span>
+											<span><a href="#">电脑包</a></span>
+											<span><a href="#">书包</a></span>
+											<span><a href="#">化妆箱</a></span>
+											<span><a href="#">便当包</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 服饰配件：</a></p>
+										<p>
+											<span><a href="#">帽子</a></span>
+											<span><a href="#">皮带</a></span>
+											<span><a href="#">围巾丝巾</a></span>
+											<span><a href="#">袖套</a></span>
+											<span><a href="#">围裙</a></span>
+											<span><a href="#">头饰</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 饰品市场：</a></p>
+										<p>
+											<span><a href="#">手表</a></span>
+											<span><a href="#">眼镜</a></span>
+											<span><a href="#">配件</a></span>
+											<span><a href="#">耳环</a></span>
+											<span><a href="#">项链</a></span>
+											<span><a href="#">吊坠</a></span>
+											<span><a href="#">戒指</a></span>
+											<span><a href="#">手链</a></span>
+										</p>
+									</li>
+								</ul>
+							</div>
+							<div class="hover_r fr">
+								<img src="images/index/hover3.jpg" /><br />
+								<img src="images/index/hover4.jpg" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="liSmall">
+						<p>
+							<a href="#">
+								风情鞋靴
+								<span class="iconfont icon-xiezi"></span>
+							</a>
+							<span class="you"></span>
+						</p>
+						<p>
+							<a href="#">女式单鞋</a>
+							<a href="#">女式靴子</a>
+							<a href="#">休闲女鞋</a>
+						</p>
+						<div class="hover">
+							<div class="hover_l fl">
+								<ul>
+									<li>
+										<p><a href="#">| 上衣：</a></p>
+										<p>
+											<span><a href="#">T恤</a></span>
+											<span><a href="#">卫衣</a></span>
+											<span><a href="#">衬衫</a></span>
+											<span><a href="#">雪纺/波罩</a></span>
+											<span><a href="#">背心</a></span>
+											<span><a href="#">T恤</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 裙子：</a></p>
+										<p>
+											<span><a href="#">连衣裙</a></span>
+											<span><a href="#">半身裙</a></span>
+											<span><a href="#">长裙</a></span>
+											<span><a href="#">套装裙</a></span>
+											<span><a href="#">背带裙</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 针织毛衣</a></p>
+										<p>
+											<span><a href="#">开衫</a></span>
+											<span><a href="#">套头</a></span>
+											<span><a href="#">毛衫外套</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 裤子：</a></p>
+										<p>
+											<span><a href="#">休闲裤</a></span>
+											<span><a href="#">哈伦裤</a></span>
+											<span><a href="#">打底裤</a></span>
+											<span><a href="#">休闲短裤</a></span>
+											<span><a href="#">小短裤</a></span>
+											<span><a href="#">牛仔裤</a></span>
+											<span><a href="#">套装裤</a></span>
+											<span><a href="#">牛仔短裤</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 外套：</a></p>
+										<p>
+											<span><a href="#">风衣</a></span>
+											<span><a href="#">马甲</a></span>
+											<span><a href="#">小西装</a></span>
+											<span><a href="#">皮革</a></span>
+											<span><a href="#">XX外套</a></span>
+											<span><a href="#">T恤</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 特色服装：</a></p>
+										<p>
+											<span><a href="#">瑜伽服</a></span>
+											<span><a href="#">时尚套装</a></span>
+											<span><a href="#">中年套装</a></span>
+											<span><a href="#">运动裤</a></span>
+											<span><a href="#">礼服</a></span>
+											<span><a href="#">情侣服</a></span>
+											<span><a href="#">旗袍</a></span>
+											<span><a href="#">隐身装</a></span>
+										</p>
+									</li>
+								</ul>
+							</div>
+							<div class="hover_r fr">
+								<img src="images/index/hover5.jpg" /><br />
+								<img src="images/index/hover6.jpg" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="liSmall">
+						<p>
+							<a href="#">
+								精品男装
+								<span class="iconfont icon-nanzhuang"></span>
+							</a>
+							<span class="you"></span>
+						</p>
+						<p>
+							<a href="#">内搭</a>
+							<a href="#">外套</a>
+							<a href="#">男士裤装</a>
+							<a href="#">套装</a>
+						</p>
+						<div class="hover">
+							<div class="hover_l fl">
+								<ul>
+									<li>
+										<p><a href="#">| 女包：</a></p>
+										<p>
+											<span><a href="#">单肩包</a></span>
+											<span><a href="#">女士钱包</a></span>
+											<span><a href="#">真皮包</a></span>
+											<span><a href="#">手提包</a></span>
+											<span><a href="#">小方包</a></span>
+											<span><a href="#">手拿包</a></span>
+											<span><a href="#">晚宴包</a></span>
+											<span><a href="#">斜挎包</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 双肩包：</a></p>
+										<p>
+											<span><a href="#">出街潮搭</a></span>
+											<span><a href="#">户外休闲</a></span>
+											<span><a href="#">帆布</a></span>
+											<span><a href="#">儿童背包</a></span>
+											<span><a href="#">很帅的包</a></span>
+											<span><a href="#">陈翔龙的包</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 男包：</a></p>
+										<p>
+											<span><a href="#">男士钱包</a></span>
+											<span><a href="#">胸包</a></span>
+											<span><a href="#">腰包</a></span>
+											<span><a href="#">单肩包</a></span>
+											<span><a href="#">斜挎包</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 功能箱包：</a></p>
+										<p>
+											<span><a href="#">拉杆箱</a></span>
+											<span><a href="#">卡包</a></span>
+											<span><a href="#">旅行袋</a></span>
+											<span><a href="#">钥匙包</a></span>
+											<span><a href="#">电脑包</a></span>
+											<span><a href="#">书包</a></span>
+											<span><a href="#">化妆箱</a></span>
+											<span><a href="#">便当包</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 服饰配件：</a></p>
+										<p>
+											<span><a href="#">帽子</a></span>
+											<span><a href="#">皮带</a></span>
+											<span><a href="#">围巾丝巾</a></span>
+											<span><a href="#">袖套</a></span>
+											<span><a href="#">围裙</a></span>
+											<span><a href="#">头饰</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 饰品市场：</a></p>
+										<p>
+											<span><a href="#">手表</a></span>
+											<span><a href="#">眼镜</a></span>
+											<span><a href="#">配件</a></span>
+											<span><a href="#">耳环</a></span>
+											<span><a href="#">项链</a></span>
+											<span><a href="#">吊坠</a></span>
+											<span><a href="#">戒指</a></span>
+											<span><a href="#">手链</a></span>
+										</p>
+									</li>
+								</ul>
+							</div>
+							<div class="hover_r fr">
+								<img src="images/index/hover7.jpg" /><br />
+								<img src="images/index/hover8.jpg" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="liSmall">
+						<p>
+							<a href="#">
+								<span class="iconfont icon-meizhuang"></span>
+								美容美妆
+							</a>
+							<span class="you"></span>
+						</p>
+						<p>
+							<a href="#">美容护肤</a>
+							<a href="#">彩妆/化妆工具</a> 
+							<a href="#">身体护理</a>
+						</p>
+						<div class="hover">
+							<div class="hover_l fl">
+								<ul>
+									<li>
+										<p><a href="#">| 上衣：</a></p>
+										<p>
+											<span><a href="#">T恤</a></span>
+											<span><a href="#">卫衣</a></span>
+											<span><a href="#">衬衫</a></span>
+											<span><a href="#">雪纺/波罩</a></span>
+											<span><a href="#">背心</a></span>
+											<span><a href="#">T恤</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 裙子：</a></p>
+										<p>
+											<span><a href="#">连衣裙</a></span>
+											<span><a href="#">半身裙</a></span>
+											<span><a href="#">长裙</a></span>
+											<span><a href="#">套装裙</a></span>
+											<span><a href="#">背带裙</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 针织毛衣</a></p>
+										<p>
+											<span><a href="#">开衫</a></span>
+											<span><a href="#">套头</a></span>
+											<span><a href="#">毛衫外套</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 裤子：</a></p>
+										<p>
+											<span><a href="#">休闲裤</a></span>
+											<span><a href="#">哈伦裤</a></span>
+											<span><a href="#">打底裤</a></span>
+											<span><a href="#">休闲短裤</a></span>
+											<span><a href="#">小短裤</a></span>
+											<span><a href="#">牛仔裤</a></span>
+											<span><a href="#">套装裤</a></span>
+											<span><a href="#">牛仔短裤</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 外套：</a></p>
+										<p>
+											<span><a href="#">风衣</a></span>
+											<span><a href="#">马甲</a></span>
+											<span><a href="#">小西装</a></span>
+											<span><a href="#">皮革</a></span>
+											<span><a href="#">XX外套</a></span>
+											<span><a href="#">T恤</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 特色服装：</a></p>
+										<p>
+											<span><a href="#">瑜伽服</a></span>
+											<span><a href="#">时尚套装</a></span>
+											<span><a href="#">中年套装</a></span>
+											<span><a href="#">运动裤</a></span>
+											<span><a href="#">礼服</a></span>
+											<span><a href="#">情侣服</a></span>
+											<span><a href="#">旗袍</a></span>
+											<span><a href="#">隐身装</a></span>
+										</p>
+									</li>
+								</ul>
+							</div>
+							<div class="hover_r fr">
+								<img src="images/index/hover9.jpg" /><br />
+								<img src="images/index/hover10.jpg" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="liSmall">
+						<p>
+							<a href="#">
+								母婴童装
+								<span class="iconfont icon-baby"></span>
+							</a>
+							<span class="you"></span>
+						</p>
+						<p>
+							<a href="#">童装</a>
+							<a href="#">母婴用品</a>
+							<a href="#">洗护</a>
+							<a href="#">喂养</a>
+						</p>
+						<div class="hover">
+							<div class="hover_l fl">
+								<ul>
+									<li>
+										<p><a href="#">| 女包：</a></p>
+										<p>
+											<span><a href="#">单肩包</a></span>
+											<span><a href="#">女士钱包</a></span>
+											<span><a href="#">真皮包</a></span>
+											<span><a href="#">手提包</a></span>
+											<span><a href="#">小方包</a></span>
+											<span><a href="#">手拿包</a></span>
+											<span><a href="#">晚宴包</a></span>
+											<span><a href="#">斜挎包</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 双肩包：</a></p>
+										<p>
+											<span><a href="#">出街潮搭</a></span>
+											<span><a href="#">户外休闲</a></span>
+											<span><a href="#">帆布</a></span>
+											<span><a href="#">儿童背包</a></span>
+											<span><a href="#">很帅的包</a></span>
+											<span><a href="#">陈翔龙的包</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 男包：</a></p>
+										<p>
+											<span><a href="#">男士钱包</a></span>
+											<span><a href="#">胸包</a></span>
+											<span><a href="#">腰包</a></span>
+											<span><a href="#">单肩包</a></span>
+											<span><a href="#">斜挎包</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 功能箱包：</a></p>
+										<p>
+											<span><a href="#">拉杆箱</a></span>
+											<span><a href="#">卡包</a></span>
+											<span><a href="#">旅行袋</a></span>
+											<span><a href="#">钥匙包</a></span>
+											<span><a href="#">电脑包</a></span>
+											<span><a href="#">书包</a></span>
+											<span><a href="#">化妆箱</a></span>
+											<span><a href="#">便当包</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 服饰配件：</a></p>
+										<p>
+											<span><a href="#">帽子</a></span>
+											<span><a href="#">皮带</a></span>
+											<span><a href="#">围巾丝巾</a></span>
+											<span><a href="#">袖套</a></span>
+											<span><a href="#">围裙</a></span>
+											<span><a href="#">头饰</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 饰品市场：</a></p>
+										<p>
+											<span><a href="#">手表</a></span>
+											<span><a href="#">眼镜</a></span>
+											<span><a href="#">配件</a></span>
+											<span><a href="#">耳环</a></span>
+											<span><a href="#">项链</a></span>
+											<span><a href="#">吊坠</a></span>
+											<span><a href="#">戒指</a></span>
+											<span><a href="#">手链</a></span>
+										</p>
+									</li>
+								</ul>
+							</div>
+							<div class="hover_r fr">
+								<img src="images/index/hover11.jpg" /><br />
+								<img src="images/index/hover12.jpg" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="liSmall">
+						<p>
+							<a href="#">
+								性感内衣
+								<span class="iconfont icon-neiyi"></span>
+							</a>
+							<span class="you"></span>
+						</p>
+						<p>
+							<a href="#">波罩</a>
+							<a href="#">内裤</a>
+							<a href="#">特色内衣</a>
+							<a href="#">你懂的</a>
+						</p>
+						<div class="hover">
+							<div class="hover_l fl">
+								<ul>
+									<li>
+										<p><a href="#">| 上衣：</a></p>
+										<p>
+											<span><a href="#">T恤</a></span>
+											<span><a href="#">卫衣</a></span>
+											<span><a href="#">衬衫</a></span>
+											<span><a href="#">雪纺/波罩</a></span>
+											<span><a href="#">背心</a></span>
+											<span><a href="#">T恤</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 裙子：</a></p>
+										<p>
+											<span><a href="#">连衣裙</a></span>
+											<span><a href="#">半身裙</a></span>
+											<span><a href="#">长裙</a></span>
+											<span><a href="#">套装裙</a></span>
+											<span><a href="#">背带裙</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 针织毛衣</a></p>
+										<p>
+											<span><a href="#">开衫</a></span>
+											<span><a href="#">套头</a></span>
+											<span><a href="#">毛衫外套</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 裤子：</a></p>
+										<p>
+											<span><a href="#">休闲裤</a></span>
+											<span><a href="#">哈伦裤</a></span>
+											<span><a href="#">打底裤</a></span>
+											<span><a href="#">休闲短裤</a></span>
+											<span><a href="#">小短裤</a></span>
+											<span><a href="#">牛仔裤</a></span>
+											<span><a href="#">套装裤</a></span>
+											<span><a href="#">牛仔短裤</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 外套：</a></p>
+										<p>
+											<span><a href="#">风衣</a></span>
+											<span><a href="#">马甲</a></span>
+											<span><a href="#">小西装</a></span>
+											<span><a href="#">皮革</a></span>
+											<span><a href="#">XX外套</a></span>
+											<span><a href="#">T恤</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 特色服装：</a></p>
+										<p>
+											<span><a href="#">瑜伽服</a></span>
+											<span><a href="#">时尚套装</a></span>
+											<span><a href="#">中年套装</a></span>
+											<span><a href="#">运动裤</a></span>
+											<span><a href="#">礼服</a></span>
+											<span><a href="#">情侣服</a></span>
+											<span><a href="#">旗袍</a></span>
+											<span><a href="#">隐身装</a></span>
+										</p>
+									</li>
+								</ul>
+							</div>
+							<div class="hover_r fr">
+								<img src="images/index/hover13.jpg" /><br />
+								<img src="images/index/hover14.jpg" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="liSmall">
+						<p>
+							<a href="#">
+								数码电器
+								<span class="iconfont icon-kaiguan"></span>
+							</a>
+							<span class="you"></span>
+						</p>
+						<p>
+							<a href="#">生活家电</a>
+							<a href="#">个人护理</a>
+							<a href="#">厨房电器</a>
+						</p>
+						<div class="hover">
+							<div class="hover_l fl">
+								<ul>
+									<li>
+										<p><a href="#">| 女包：</a></p>
+										<p>
+											<span><a href="#">单肩包</a></span>
+											<span><a href="#">女士钱包</a></span>
+											<span><a href="#">真皮包</a></span>
+											<span><a href="#">手提包</a></span>
+											<span><a href="#">小方包</a></span>
+											<span><a href="#">手拿包</a></span>
+											<span><a href="#">晚宴包</a></span>
+											<span><a href="#">斜挎包</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 双肩包：</a></p>
+										<p>
+											<span><a href="#">出街潮搭</a></span>
+											<span><a href="#">户外休闲</a></span>
+											<span><a href="#">帆布</a></span>
+											<span><a href="#">儿童背包</a></span>
+											<span><a href="#">很帅的包</a></span>
+											<span><a href="#">陈翔龙的包</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 男包：</a></p>
+										<p>
+											<span><a href="#">男士钱包</a></span>
+											<span><a href="#">胸包</a></span>
+											<span><a href="#">腰包</a></span>
+											<span><a href="#">单肩包</a></span>
+											<span><a href="#">斜挎包</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 功能箱包：</a></p>
+										<p>
+											<span><a href="#">拉杆箱</a></span>
+											<span><a href="#">卡包</a></span>
+											<span><a href="#">旅行袋</a></span>
+											<span><a href="#">钥匙包</a></span>
+											<span><a href="#">电脑包</a></span>
+											<span><a href="#">书包</a></span>
+											<span><a href="#">化妆箱</a></span>
+											<span><a href="#">便当包</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 服饰配件：</a></p>
+										<p>
+											<span><a href="#">帽子</a></span>
+											<span><a href="#">皮带</a></span>
+											<span><a href="#">围巾丝巾</a></span>
+											<span><a href="#">袖套</a></span>
+											<span><a href="#">围裙</a></span>
+											<span><a href="#">头饰</a></span>
+										</p>
+									</li>
+									<li>
+										<p><a href="#">| 饰品市场：</a></p>
+										<p>
+											<span><a href="#">手表</a></span>
+											<span><a href="#">眼镜</a></span>
+											<span><a href="#">配件</a></span>
+											<span><a href="#">耳环</a></span>
+											<span><a href="#">项链</a></span>
+											<span><a href="#">吊坠</a></span>
+											<span><a href="#">戒指</a></span>
+											<span><a href="#">手链</a></span>
+										</p>
+									</li>
+								</ul>
+							</div>
+							<div class="hover_r fr">
+								<img src="images/index/hover15.jpg" /><br />
+								<img src="images/index/hover16.jpg" />
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<div class="nav_m fl clearfix">
+				<div class="lbBox fl">
+					<div class="carousel"></div>
+					<div class="carousel2"></div>
+				</div>
+				<div class="lbImg fl">
+					<img src="images/index/lbimg1.jpg" />
+					<p>今日秒杀</p>
+					<img src="images/index/lbimg2.jpg" />
+				</div>
+			</div>
+			<div class="nav_r fr">
+				<div class="nav_rt">
+					<h2>
+						<p>Hi!欢迎来到多商网</p>
+						<p>您还没登录额~~</p>	
+					</h2>
+					<button><a href="html/register.html">登录</a></button>
+					<button><a href="html/login.html">注册</a></button>
+					<div class="gonggao">
+						<ul class="gg_nav clearfix">
+							<li>公告</li>
+							<li>规则</li>
+							<li>保障</li>
+						</ul>
+						<div class="gg_new">
+							<div class="gg_newBox">
+								<p>陈翔龙贼鸡儿帅啊啊</p>
+								<p>陈翔龙贼鸡儿帅啊啊</p>
+								<p>陈翔龙贼鸡儿帅啊啊</p>
+								<p>陈翔龙贼鸡儿帅啊啊</p>
+							</div>
+							<div  class="gg_newBox">
+								<p>龙翔陈啊啊啊啊啊啊啊</p>
+								<p>龙翔陈啊啊啊啊啊啊啊</p>
+								<p>龙翔陈啊啊啊啊啊啊啊</p>
+								<p>龙翔陈啊啊啊啊啊啊啊</p>
+							</div>
+							<div  class="gg_newBox">
+								<p>陈龙翔嘿嘿嘿黑嗨潶</p>
+								<p>陈龙翔嘿嘿嘿黑嗨潶</p>
+								<p>陈龙翔嘿嘿嘿黑嗨潶</p>
+								<p>陈龙翔嘿嘿嘿黑嗨潶</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="nav_rb">
+					<ul class="nav_rbLi clearfix">
+						<li>
+							<img src="images/index/gg1.png"/>
+							<p>源头价</p>
+						</li>
+						<li>
+							<img src="images/index/gg2.png"/>
+							<p>好货源</p>
+						</li>
+						<li>
+							<img src="images/index/gg3.png"/>
+							<p>有保证</p>
+						</li>
+					</ul>
+					<h5>分销商代销流程</h5>
+					<h6>1、注册多商会员</h6>
+					<h6>2、选择合适的产品</h6>
+					<h6>3、一键上架到淘宝店</h6>
+					<h6>4、成功代销</h6>
+				</div>
+			</div>			
+		</div>
+	</div>
+	<div id="logo">
+		<div class="container">
+			<h4>
+				多商品牌店
+			</h4>
+			<ul class="logo_box clearfix">
+				<li>
+					<img src="images/index/logo12.jpg"/>
+                	<div class="logo_hide">
+                    	<p>蚂蚁车贷</p>
+                    	<button>点击进入</button>
+                	</div>
+				</li>
+				<li>
+					<img src="images/index/logo1.jpg"/>
+                	<div class="logo_hide">
+                    	<p>蚂蚁车贷</p>
+                    	<button>点击进入</button>
+                	</div>
+				</li>
+				<li>
+					<img src="images/index/logo2.jpg"/>
+                	<div class="logo_hide">
+                    	<p>蚂蚁车贷</p>
+                    	<button>点击进入</button>
+                	</div>
+				</li>
+				<li>
+					<img src="images/index/logo3.jpg"/>
+                	<div class="logo_hide">
+                    	<p>蚂蚁车贷</p>
+                    	<button>点击进入</button>
+                	</div>
+				</li>
+				<li>
+					<img src="images/index/logo4.jpg"/>
+                	<div class="logo_hide">
+                    	<p>蚂蚁车贷</p>
+                    	<button>点击进入</button>
+                	</div>
+				</li>
+				<li>
+					<img src="images/index/logo5.jpg"/>
+                	<div class="logo_hide">
+                    	<p>蚂蚁车贷</p>
+                    	<button>点击进入</button>
+                	</div>
+				</li>
+				<li>
+					<img src="images/index/logo6.jpg"/>
+                	<div class="logo_hide">
+                    	<p>蚂蚁车贷</p>
+                    	<button>点击进入</button>
+                	</div>
+				</li>
+				<li>
+					<img src="images/index/logo7.jpg"/>
+                	<div class="logo_hide">
+                    	<p>蚂蚁车贷</p>
+                    	<button>点击进入</button>
+                	</div>
+				</li>
+				<li>
+					<img src="images/index/logo8.jpg"/>
+                	<div class="logo_hide">
+                    	<p>蚂蚁车贷</p>
+                    	<button>点击进入</button>
+                	</div>
+				</li>
+				<li>
+					<img src="images/index/logo9.jpg"/>
+                	<div class="logo_hide">
+                    	<p>蚂蚁车贷</p>
+                    	<button>点击进入</button>
+                	</div>
+				</li>
+				<li>
+					<img src="images/index/logo10.jpg"/>
+                	<div class="logo_hide">
+                    	<p>蚂蚁车贷</p>
+                    	<button>点击进入</button>
+                	</div>
+				</li>
+				<li>
+					<img src="images/index/logo11.jpg"/>
+                	<div class="logo_hide">
+                    	<p>蚂蚁车贷</p>
+                    	<button>点击进入</button>
+                	</div>
+				</li>
+				<li>
+					<img src="images/index/logo12.jpg"/>
+                	<div class="logo_hide">
+                    	<p>蚂蚁车贷</p>
+                    	<button>点击进入</button>
+                	</div>
+				</li>
+				<li>
+					<img src="images/index/logo13.jpg"/>
+                	<div class="logo_hide">
+                    	<p>蚂蚁车贷</p>
+                    	<button>点击进入</button>
+                	</div>
+				</li>
+				<li>
+					<img src="images/index/logo14.jpg"/>
+                	<div class="logo_hide">
+                    	<p>蚂蚁车贷</p>
+                    	<button>点击进入</button>
+                	</div>
+				</li>
+				<li>
+					<img src="images/index/logo15.jpg"/>
+                	<div class="logo_hide">
+                    	<p>蚂蚁车贷</p>
+                    	<button>点击进入</button>
+                	</div>
+				</li>
+				<li>
+					<img src="images/index/logo2.jpg"/>
+                	<div class="logo_hide">
+                    	<p>蚂蚁车贷</p>
+                    	<button>点击进入</button>
+                	</div>
+				</li>
+				<li>
+					<img src="images/index/logo3.jpg"/>
+                	<div class="logo_hide">
+                    	<p>蚂蚁车贷</p>
+                    	<button>点击进入</button>
+                	</div>
+				</li>
+				<li>
+					<img src="images/index/logo4.jpg"/>
+                	<div class="logo_hide">
+                    	<p>蚂蚁车贷</p>
+                    	<button>点击进入</button>
+                	</div>
+				</li>
+				<li style="border-right:1px solid #ccc;">
+					<img src="images/index/logo4.jpg"/>
+                	<div class="logo_hide">
+                    	<p>蚂蚁车贷</p>
+                    	<button>点击进入</button>
+                	</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="main">
+		<div class="container">
+			<ul class="main_box clearfix">
+				<li>
+					<h4>
+						<button>1F</button>
+						<span>女装货源资源</span>
+						<span>
+							货源批发市场
+							<i class="right"></i>
+						</span>
+					</h4>
+					<div class="main_l fl">
+						<div class="main_li">
+							<div class="main_show">
+								<div class="main_lil fl">
+									<p>上衣</p>
+									<p>T桖</p>
+									<p>卫衣</p>
+									<p>波罩/胸罩</p>
+									<p>内衣</p>
+									<p>背心</p>
+									<p>衬衫</p>
+								</div>
+								<img src="images/index/main1.jpg" alt="" />
+							</div>
+							<div class="main_hide">
+								<p>上衣</p><br />
+								<p>T桖</p>
+								<p>卫衣</p>
+								<p>波罩/胸罩</p>
+								<p>内衣</p>
+								<p>背心</p>
+								<p>衬衫</p>
+							</div>
+						</div>
+						<div class="main_li">
+							<div class="main_show">
+								<div class="main_lil fl">
+									<p>裙子</p>
+									<p>连衣裙</p>
+									<p>半身裙</p>
+									<p>长裙</p>
+									<p>套装裙</p>
+									<p>背带裙</p>
+									<p>围裙</p>
+								</div>
+								<img src="images/index/main2.jpg" alt="" />
+							</div>
+							<div class="main_hide">
+								<p>裙子</p><br />
+								<p>连衣裙</p>
+								<p>半身裙</p>
+								<p>长裙</p>
+								<p>套装裙</p>
+								<p>背带裙</p>
+								<p>围裙</p>
+							</div>
+						</div>
+						<div class="main_li">
+							<div class="main_show">
+								<div class="main_lil fl">
+									<p>裤子</p>
+									<p>哈伦裤</p>
+									<p>休闲裤</p>
+									<p>小脚裤</p>
+									<p>打底裤</p>
+									<p>休闲短裤</p>
+									<p>不穿裤</p>
+								</div>
+								<img src="images/index/main3.jpg" alt="" />
+							</div>
+							<div class="main_hide">
+								<p>裤子</p><br />
+								<p>哈伦裤</p>
+								<p>休闲裤</p>
+								<p>小脚裤</p>
+								<p>打底裤</p>
+								<p>休闲短裤</p>
+								<p>不穿裤</p>
+
+							</div>
+						</div>
+						
+					</div>
+					<ul class="main_m fl">
+						<li>
+							<img src="images/index/mainm1.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm2.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm3.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm4.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm5.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm6.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm7.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm8.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+					</ul>
+					<div class="main_r fl">
+						<img src="images/index/mainr1.jpg" alt="" /><br />
+						<img src="images/index/mainr2.jpg" alt="" />
+					</div>
+				</li>
+				<li>
+					<h4>
+						<button>2F</button>
+						<span>箱包货源专区</span>
+						<span>
+							货源批发市场
+							<i class="right"></i>
+						</span>
+					</h4>
+					<div class="main_l fl">
+						<div class="main_li">
+							<div class="main_show">
+								<div class="main_lil fl">
+									<p>上衣</p>
+									<p>T桖</p>
+									<p>卫衣</p>
+									<p>波罩/胸罩</p>
+									<p>内衣</p>
+									<p>背心</p>
+									<p>衬衫</p>
+								</div>
+								<img src="images/index/main1.jpg" alt="" />
+							</div>
+							<div class="main_hide">
+								<p>上衣</p><br />
+								<p>T桖</p>
+								<p>卫衣</p>
+								<p>波罩/胸罩</p>
+								<p>内衣</p>
+								<p>背心</p>
+								<p>衬衫</p>
+							</div>
+						</div>
+						<div class="main_li">
+							<div class="main_show">
+								<div class="main_lil fl">
+									<p>裙子</p>
+									<p>连衣裙</p>
+									<p>半身裙</p>
+									<p>长裙</p>
+									<p>套装裙</p>
+									<p>背带裙</p>
+									<p>围裙</p>
+								</div>
+								<img src="images/index/main2.jpg" alt="" />
+							</div>
+							<div class="main_hide">
+								<p>裙子</p><br />
+								<p>连衣裙</p>
+								<p>半身裙</p>
+								<p>长裙</p>
+								<p>套装裙</p>
+								<p>背带裙</p>
+								<p>围裙</p>
+							</div>
+						</div>
+						<div class="main_li">
+							<div class="main_show">
+								<div class="main_lil fl">
+									<p>裤子</p>
+									<p>哈伦裤</p>
+									<p>休闲裤</p>
+									<p>小脚裤</p>
+									<p>打底裤</p>
+									<p>休闲短裤</p>
+									<p>不穿裤</p>
+								</div>
+								<img src="images/index/main3.jpg" alt="" />
+							</div>
+							<div class="main_hide">
+								<p>裤子</p><br />
+								<p>哈伦裤</p>
+								<p>休闲裤</p>
+								<p>小脚裤</p>
+								<p>打底裤</p>
+								<p>休闲短裤</p>
+								<p>不穿裤</p>
+
+							</div>
+						</div>
+						
+					</div>
+					<ul class="main_m fl">
+						<li>
+							<img src="images/index/mainm1.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm2.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm3.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm4.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm5.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm6.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm7.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm8.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+					</ul>
+					<div class="main_r fl">
+						<img src="images/index/mainr1.jpg" alt="" /><br />
+						<img src="images/index/mainr2.jpg" alt="" />
+					</div>
+				</li>
+				<li>
+					<h4>
+						<button>3F</button>
+						<span>鞋靴货源专区</span>
+						<span>
+							货源批发市场
+							<i class="right"></i>
+						</span>
+					</h4>
+					<div class="main_l fl">
+						<div class="main_li">
+							<div class="main_show">
+								<div class="main_lil fl">
+									<p>上衣</p>
+									<p>T桖</p>
+									<p>卫衣</p>
+									<p>波罩/胸罩</p>
+									<p>内衣</p>
+									<p>背心</p>
+									<p>衬衫</p>
+								</div>
+								<img src="images/index/main1.jpg" alt="" />
+							</div>
+							<div class="main_hide">
+								<p>上衣</p><br />
+								<p>T桖</p>
+								<p>卫衣</p>
+								<p>波罩/胸罩</p>
+								<p>内衣</p>
+								<p>背心</p>
+								<p>衬衫</p>
+							</div>
+						</div>
+						<div class="main_li">
+							<div class="main_show">
+								<div class="main_lil fl">
+									<p>裙子</p>
+									<p>连衣裙</p>
+									<p>半身裙</p>
+									<p>长裙</p>
+									<p>套装裙</p>
+									<p>背带裙</p>
+									<p>围裙</p>
+								</div>
+								<img src="images/index/main2.jpg" alt="" />
+							</div>
+							<div class="main_hide">
+								<p>裙子</p><br />
+								<p>连衣裙</p>
+								<p>半身裙</p>
+								<p>长裙</p>
+								<p>套装裙</p>
+								<p>背带裙</p>
+								<p>围裙</p>
+							</div>
+						</div>
+						<div class="main_li">
+							<div class="main_show">
+								<div class="main_lil fl">
+									<p>裤子</p>
+									<p>哈伦裤</p>
+									<p>休闲裤</p>
+									<p>小脚裤</p>
+									<p>打底裤</p>
+									<p>休闲短裤</p>
+									<p>不穿裤</p>
+								</div>
+								<img src="images/index/main3.jpg" alt="" />
+							</div>
+							<div class="main_hide">
+								<p>裤子</p><br />
+								<p>哈伦裤</p>
+								<p>休闲裤</p>
+								<p>小脚裤</p>
+								<p>打底裤</p>
+								<p>休闲短裤</p>
+								<p>不穿裤</p>
+
+							</div>
+						</div>
+						
+					</div>
+					<ul class="main_m fl">
+						<li>
+							<img src="images/index/mainm1.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm2.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm3.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm4.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm5.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm6.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm7.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm8.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+					</ul>
+					<div class="main_r fl">
+						<img src="images/index/mainr1.jpg" alt="" /><br />
+						<img src="images/index/mainr2.jpg" alt="" />
+					</div>
+				</li>
+				<li>
+					<h4>
+						<button>4F</button>
+						<span>美妆货源专区</span>
+						<span>
+							货源批发市场
+							<i class="right"></i>
+						</span>
+					</h4>
+					<div class="main_l fl">
+						<div class="main_li">
+							<div class="main_show">
+								<div class="main_lil fl">
+									<p>上衣</p>
+									<p>T桖</p>
+									<p>卫衣</p>
+									<p>波罩/胸罩</p>
+									<p>内衣</p>
+									<p>背心</p>
+									<p>衬衫</p>
+								</div>
+								<img src="images/index/main1.jpg" alt="" />
+							</div>
+							<div class="main_hide">
+								<p>上衣</p><br />
+								<p>T桖</p>
+								<p>卫衣</p>
+								<p>波罩/胸罩</p>
+								<p>内衣</p>
+								<p>背心</p>
+								<p>衬衫</p>
+							</div>
+						</div>
+						<div class="main_li">
+							<div class="main_show">
+								<div class="main_lil fl">
+									<p>裙子</p>
+									<p>连衣裙</p>
+									<p>半身裙</p>
+									<p>长裙</p>
+									<p>套装裙</p>
+									<p>背带裙</p>
+									<p>围裙</p>
+								</div>
+								<img src="images/index/main2.jpg" alt="" />
+							</div>
+							<div class="main_hide">
+								<p>裙子</p><br />
+								<p>连衣裙</p>
+								<p>半身裙</p>
+								<p>长裙</p>
+								<p>套装裙</p>
+								<p>背带裙</p>
+								<p>围裙</p>
+							</div>
+						</div>
+						<div class="main_li">
+							<div class="main_show">
+								<div class="main_lil fl">
+									<p>裤子</p>
+									<p>哈伦裤</p>
+									<p>休闲裤</p>
+									<p>小脚裤</p>
+									<p>打底裤</p>
+									<p>休闲短裤</p>
+									<p>不穿裤</p>
+								</div>
+								<img src="images/index/main3.jpg" alt="" />
+							</div>
+							<div class="main_hide">
+								<p>裤子</p><br />
+								<p>哈伦裤</p>
+								<p>休闲裤</p>
+								<p>小脚裤</p>
+								<p>打底裤</p>
+								<p>休闲短裤</p>
+								<p>不穿裤</p>
+
+							</div>
+						</div>
+						
+					</div>
+					<ul class="main_m fl">
+						<li>
+							<img src="images/index/mainm1.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm2.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm3.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm4.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm5.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm6.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm7.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm8.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+					</ul>
+					<div class="main_r fl">
+						<img src="images/index/mainr1.jpg" alt="" /><br />
+						<img src="images/index/mainr2.jpg" alt="" />
+					</div>
+				</li>
+				<li>
+					<h4>
+						<button>5F</button>
+						<span>童装货源专区</span>
+						<span>
+							货源批发市场
+							<i class="right"></i>
+						</span>
+					</h4>
+					<div class="main_l fl">
+						<div class="main_li">
+							<div class="main_show">
+								<div class="main_lil fl">
+									<p>上衣</p>
+									<p>T桖</p>
+									<p>卫衣</p>
+									<p>波罩/胸罩</p>
+									<p>内衣</p>
+									<p>背心</p>
+									<p>衬衫</p>
+								</div>
+								<img src="images/index/main1.jpg" alt="" />
+							</div>
+							<div class="main_hide">
+								<p>上衣</p><br />
+								<p>T桖</p>
+								<p>卫衣</p>
+								<p>波罩/胸罩</p>
+								<p>内衣</p>
+								<p>背心</p>
+								<p>衬衫</p>
+							</div>
+						</div>
+						<div class="main_li">
+							<div class="main_show">
+								<div class="main_lil fl">
+									<p>裙子</p>
+									<p>连衣裙</p>
+									<p>半身裙</p>
+									<p>长裙</p>
+									<p>套装裙</p>
+									<p>背带裙</p>
+									<p>围裙</p>
+								</div>
+								<img src="images/index/main2.jpg" alt="" />
+							</div>
+							<div class="main_hide">
+								<p>裙子</p><br />
+								<p>连衣裙</p>
+								<p>半身裙</p>
+								<p>长裙</p>
+								<p>套装裙</p>
+								<p>背带裙</p>
+								<p>围裙</p>
+							</div>
+						</div>
+						<div class="main_li">
+							<div class="main_show">
+								<div class="main_lil fl">
+									<p>裤子</p>
+									<p>哈伦裤</p>
+									<p>休闲裤</p>
+									<p>小脚裤</p>
+									<p>打底裤</p>
+									<p>休闲短裤</p>
+									<p>不穿裤</p>
+								</div>
+								<img src="images/index/main3.jpg" alt="" />
+							</div>
+							<div class="main_hide">
+								<p>裤子</p><br />
+								<p>哈伦裤</p>
+								<p>休闲裤</p>
+								<p>小脚裤</p>
+								<p>打底裤</p>
+								<p>休闲短裤</p>
+								<p>不穿裤</p>
+
+							</div>
+						</div>
+						
+					</div>
+					<ul class="main_m fl">
+						<li>
+							<img src="images/index/mainm1.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm2.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm3.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm4.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm5.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm6.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm7.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm8.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+					</ul>
+					<div class="main_r fl">
+						<img src="images/index/mainr1.jpg" alt="" /><br />
+						<img src="images/index/mainr2.jpg" alt="" />
+					</div>
+				</li>
+				<li>
+					<h4>
+						<button>6F</button>
+						<span>数码家电专区</span>
+						<span>
+							货源批发市场
+							<i class="right"></i>
+						</span>
+					</h4>
+					<div class="main_l fl">
+						<div class="main_li">
+							<div class="main_show">
+								<div class="main_lil fl">
+									<p>上衣</p>
+									<p>T桖</p>
+									<p>卫衣</p>
+									<p>波罩/胸罩</p>
+									<p>内衣</p>
+									<p>背心</p>
+									<p>衬衫</p>
+								</div>
+								<img src="images/index/main1.jpg" alt="" />
+							</div>
+							<div class="main_hide">
+								<p>上衣</p><br />
+								<p>T桖</p>
+								<p>卫衣</p>
+								<p>波罩/胸罩</p>
+								<p>内衣</p>
+								<p>背心</p>
+								<p>衬衫</p>
+							</div>
+						</div>
+						<div class="main_li">
+							<div class="main_show">
+								<div class="main_lil fl">
+									<p>裙子</p>
+									<p>连衣裙</p>
+									<p>半身裙</p>
+									<p>长裙</p>
+									<p>套装裙</p>
+									<p>背带裙</p>
+									<p>围裙</p>
+								</div>
+								<img src="images/index/main2.jpg" alt="" />
+							</div>
+							<div class="main_hide">
+								<p>裙子</p><br />
+								<p>连衣裙</p>
+								<p>半身裙</p>
+								<p>长裙</p>
+								<p>套装裙</p>
+								<p>背带裙</p>
+								<p>围裙</p>
+							</div>
+						</div>
+						<div class="main_li">
+							<div class="main_show">
+								<div class="main_lil fl">
+									<p>裤子</p>
+									<p>哈伦裤</p>
+									<p>休闲裤</p>
+									<p>小脚裤</p>
+									<p>打底裤</p>
+									<p>休闲短裤</p>
+									<p>不穿裤</p>
+								</div>
+								<img src="images/index/main3.jpg" alt="" />
+							</div>
+							<div class="main_hide">
+								<p>裤子</p><br />
+								<p>哈伦裤</p>
+								<p>休闲裤</p>
+								<p>小脚裤</p>
+								<p>打底裤</p>
+								<p>休闲短裤</p>
+								<p>不穿裤</p>
+
+							</div>
+						</div>
+						
+					</div>
+					<ul class="main_m fl">
+						<li>
+							<img src="images/index/mainm1.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm2.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm3.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm4.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm5.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm6.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm7.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm8.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+					</ul>
+					<div class="main_r fl">
+						<img src="images/index/mainr1.jpg" alt="" /><br />
+						<img src="images/index/mainr2.jpg" alt="" />
+					</div>
+				</li>
+				<li>
+					<h4>
+						<button>7F</button>
+						<span>食品货源专区</span>
+						<span>
+							货源批发市场
+							<i class="right"></i>
+						</span>
+					</h4>
+					<div class="main_l fl">
+						<div class="main_li">
+							<div class="main_show">
+								<div class="main_lil fl">
+									<p>上衣</p>
+									<p>T桖</p>
+									<p>卫衣</p>
+									<p>波罩/胸罩</p>
+									<p>内衣</p>
+									<p>背心</p>
+									<p>衬衫</p>
+								</div>
+								<img src="images/index/main1.jpg" alt="" />
+							</div>
+							<div class="main_hide">
+								<p>上衣</p><br />
+								<p>T桖</p>
+								<p>卫衣</p>
+								<p>波罩/胸罩</p>
+								<p>内衣</p>
+								<p>背心</p>
+								<p>衬衫</p>
+							</div>
+						</div>
+						<div class="main_li">
+							<div class="main_show">
+								<div class="main_lil fl">
+									<p>裙子</p>
+									<p>连衣裙</p>
+									<p>半身裙</p>
+									<p>长裙</p>
+									<p>套装裙</p>
+									<p>背带裙</p>
+									<p>围裙</p>
+								</div>
+								<img src="images/index/main2.jpg" alt="" />
+							</div>
+							<div class="main_hide">
+								<p>裙子</p><br />
+								<p>连衣裙</p>
+								<p>半身裙</p>
+								<p>长裙</p>
+								<p>套装裙</p>
+								<p>背带裙</p>
+								<p>围裙</p>
+							</div>
+						</div>
+						<div class="main_li">
+							<div class="main_show">
+								<div class="main_lil fl">
+									<p>裤子</p>
+									<p>哈伦裤</p>
+									<p>休闲裤</p>
+									<p>小脚裤</p>
+									<p>打底裤</p>
+									<p>休闲短裤</p>
+									<p>不穿裤</p>
+								</div>
+								<img src="images/index/main3.jpg" alt="" />
+							</div>
+							<div class="main_hide">
+								<p>裤子</p><br />
+								<p>哈伦裤</p>
+								<p>休闲裤</p>
+								<p>小脚裤</p>
+								<p>打底裤</p>
+								<p>休闲短裤</p>
+								<p>不穿裤</p>
+
+							</div>
+						</div>
+						
+					</div>
+					<ul class="main_m fl">
+						<li>
+							<img src="images/index/mainm1.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm2.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm3.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm4.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm5.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm6.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm7.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm8.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+					</ul>
+					<div class="main_r fl">
+						<img src="images/index/mainr1.jpg" alt="" /><br />
+						<img src="images/index/mainr2.jpg" alt="" />
+					</div>
+				</li>
+				<li>
+					<h4>
+						<button>8F</button>
+						<span>饰品货源专区</span>
+						<span>
+							货源批发市场
+							<i class="right"></i>
+						</span>
+					</h4>
+					<div class="main_l fl">
+						<div class="main_li">
+							<div class="main_show">
+								<div class="main_lil fl">
+									<p>上衣</p>
+									<p>T桖</p>
+									<p>卫衣</p>
+									<p>波罩/胸罩</p>
+									<p>内衣</p>
+									<p>背心</p>
+									<p>衬衫</p>
+								</div>
+								<img src="images/index/main1.jpg" alt="" />
+							</div>
+							<div class="main_hide">
+								<p>上衣</p><br />
+								<p>T桖</p>
+								<p>卫衣</p>
+								<p>波罩/胸罩</p>
+								<p>内衣</p>
+								<p>背心</p>
+								<p>衬衫</p>
+							</div>
+						</div>
+						<div class="main_li">
+							<div class="main_show">
+								<div class="main_lil fl">
+									<p>裙子</p>
+									<p>连衣裙</p>
+									<p>半身裙</p>
+									<p>长裙</p>
+									<p>套装裙</p>
+									<p>背带裙</p>
+									<p>围裙</p>
+								</div>
+								<img src="images/index/main2.jpg" alt="" />
+							</div>
+							<div class="main_hide">
+								<p>裙子</p><br />
+								<p>连衣裙</p>
+								<p>半身裙</p>
+								<p>长裙</p>
+								<p>套装裙</p>
+								<p>背带裙</p>
+								<p>围裙</p>
+							</div>
+						</div>
+						<div class="main_li">
+							<div class="main_show">
+								<div class="main_lil fl">
+									<p>裤子</p>
+									<p>哈伦裤</p>
+									<p>休闲裤</p>
+									<p>小脚裤</p>
+									<p>打底裤</p>
+									<p>休闲短裤</p>
+									<p>不穿裤</p>
+								</div>
+								<img src="images/index/main3.jpg" alt="" />
+							</div>
+							<div class="main_hide">
+								<p>裤子</p><br />
+								<p>哈伦裤</p>
+								<p>休闲裤</p>
+								<p>小脚裤</p>
+								<p>打底裤</p>
+								<p>休闲短裤</p>
+								<p>不穿裤</p>
+
+							</div>
+						</div>
+						
+					</div>
+					<ul class="main_m fl">
+						<li>
+							<img src="images/index/mainm1.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm2.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm3.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm4.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm5.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm6.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm7.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+						<li>
+							<img src="images/index/mainm8.jpg" />
+							<p>15 果倍儿 2017最最最新款啊...</p>
+							<button>分销价</button>
+							<span>登录查看分销价</span>
+						</li>
+					</ul>
+					<div class="main_r fl">
+						<img src="images/index/mainr1.jpg" alt="" /><br />
+						<img src="images/index/mainr2.jpg" alt="" />
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="news">
+		<div class="container clearfix">
+			<h4>多商动态</h4>
+			<div class="news_l fl">
+				<h3>
+					<span>每日推荐</span>
+					<span>更多></span>
+				</h3>
+				<div class="news_lunbo"></div>
+				<p><i class="news_dian"></i>两位老外赌上乌纱帽在天猫开了家分店，发过总统都...</p>
+				<p><i class="news_dian"></i>童鞋日销两百万双，他如何在拼多多打造爆款的</p>
+				<p><i class="news_dian"></i>实体店反击收编"双十一"优惠力度直逼网店</p>
+				<p><i class="news_dian"></i>XXX突破6000家覆盖200余城</p>
+				<p><i class="news_dian"></i>你曾经为梦想坚持多久？10年，他把COSPLAy服装卖到几千万</p>
+				<p><i class="news_dian"></i>"双11"里我们被淘宝"歧视"了</p>
+			</div>
+			<div class="news_m fl" >
+				<h3>
+					<span>卖家成功案例</span>
+					<span>更多></span>
+				</h3>
+				<ul class="news_mbox">
+					<li>
+						<img src="images/index/news_m1.png" alt="" />
+						<div class="news_text fr">
+							<p>两位老外赌上"乌纱帽"在天猫开了...</p>
+							<p>三年前，法国人pierre Talbi(中文名:何一新)第一次来到中国,当时他在重庆一所国际高中教书，然后呢。。。<span style="color:blue;">查看全文</span></p>			
+						</div>
+					</li>
+					<li>
+						<img src="images/index/news_m2.png" alt="" />
+						<div class="news_text fr">
+							<p>两位老外赌上"乌纱帽"在天猫开了...</p>
+							<p>三年前，法国人pierre Talbi(中文名:何一新)第一次来到中国,当时他在重庆一所国际高中教书，然后呢。。。<span style="color:blue;">查看全文</span></p>			
+						</div>
+					</li>
+					<li>
+						<img src="images/index/news_m3.png" alt="" />
+						<div class="news_text fr">
+							<p>两位老外赌上"乌纱帽"在天猫开了...</p>
+							<p>三年前，法国人pierre Talbi(中文名:何一新)第一次来到中国,当时他在重庆一所国际高中教书，然后呢。。。<span style="color:blue;">查看全文</span></p>			
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="news_r fl">
+				<h3>
+					<span>入驻多商</span>
+					<span>更多></span>
+				</h3>
+				<div class="news_rtext">
+					<p>多商网（www.ecduo.cn）是立足珠三角、辐射全国的云供应链平台。依托珠三角地区资源优势，多商网聚集了行业资深的运营团队，深度连接全国300000家天猫淘宝卖家、微商及线下实体店，为所有卖家提供可持续的货源保障以及专业的运营支持服务</p>
+					<p>通过强大的渠道整合能力，已经有超过10000家知名品牌厂商信任并入驻了多商网平台，为分销商提供了强有力的货源保障。</p>
+				</div>
+				<img src="images/index/news_r.jpg" alt="" />
+			</div>
+		</div>
+	</div>
+	<div id="links">
+		<div class="container clearfix">
+			<h4>
+				<span>友情链接</span>
+				<span class="links_btn">收起友情链接></span>
+			</h4>
+			<div class="links_all">
+				<span>流量平台</span>
+				<span>流量平台</span>
+				<span>流量平台</span>
+				<span>流量平台</span>
+				<span>流量平台</span>
+				<span>流量平台</span>
+				<span>流量平台</span>
+				<span>流量平台</span>
+				<span>流量平台</span>
+				<span>流量平台</span>
+				<span>流量平台</span>
+				<span>流量平台</span>
+				<span>流量平台</span>
+				<span>流量平台</span>
+				<span>流量平台</span>
+				<span>流量平台</span>
+				<span>流量平台</span>
+				<span>流量平台</span>
+				<span>流量平台</span>
+				<span>流量平台</span>
+				<span>流量平台</span>
+				<span>流量平台</span>
+				<span>流量平台</span>
+				<span>流量平台</span>
+				<span>流量平台</span>
+				<span>流量平台</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>小本生意</span>
+				<span>流量平台</span>
+			</div>
+		</div>
+	</div>
+	<div id="footer"></div>
 </body>
 </html>

@@ -1,0 +1,87 @@
+#nav { height: 34px; }
+
+#nav h4 { height: 34px; background: #D71E00; border-bottom: 2px solid #AA1800; }
+
+#nav h4 .nav_top { height: 34px; }
+
+#nav h4 .nav_top li { float: left; height: 100%; text-align: center; font-size: 17px; line-height: 38px; }
+
+#nav h4 .nav_top li a { display: inline-block; padding: 0 16px; color: white; height: 34px; }
+
+#nav h4 .nav_top li:first-child { width: 236px; background: #AA1800; color: white; margin-right: 4px; }
+
+#nav h4 .nav_top li:hover { background: #AA1800; color: white; }
+
+#car { margin-top: 10px; min-height: 412px; }
+
+#car .container { padding-left: 30px; padding-right: 75px; }
+
+#car .container p { display: inline-block; width: 285px; height: 30px; background: #ccc; line-height: 30px; color: white; font-size: 18px; }
+
+#car .container p span { display: inline-block; height: 24px; line-height: 24px; width: 24px; background: white; color: #ccc; font-size: 16px; text-align: center; border-radius: 50%; margin-left: 12px; margin-right: 12px; }
+
+#car .container p:nth-child(1) { background: orange; }
+
+#car .container p:nth-child(1) span { color: orange; }
+
+#car .container .you { color: blue; font-size: 24px; display: inline-block; font-weight: bold; height: 30px; text-align: center; line-height: 30px; width: 30px; }
+
+#car .container h4 { color: blue; font-size: 20px; font-weight: bold; height: 42px; line-height: 42px; padding-left: 18px; }
+
+#car .container h4 span { display: inline-block; height: 18px; width: 8px; background: orange; margin-right: 6px; }
+
+#car .container h5 { padding-left: 30px; }
+
+#car .container h5 span { color: blue; }
+
+#car .container .car_box { border: 1px solid #ccc; width: 1100px; margin-left: 16px; margin-top: 16px; }
+
+#car .container .car_box > li { height: 120px; width: 100%; }
+
+#car .container .car_box > li > .hang_box { height: 100%; border-bottom: 1px solid #ccc; }
+
+#car .container .car_box > li > .hang_box > li { float: left; height: 100%; color: black; }
+
+#car .container .car_box > li > .hang_box > li:nth-child(1) { width: 40%; border: 1px solid #ccc; padding-top: 14px; padding-left: 110px; position: relative; }
+
+#car .container .car_box > li > .hang_box > li:nth-child(1) img { position: absolute; top: 10px; left: 18px; height: 59px; width: 59px; }
+
+#car .container .car_box > li > .hang_box > li:nth-child(1) #name { color: grey; }
+
+#car .container .car_box > li > .hang_box > li:nth-child(1) #color, #car .container .car_box > li > .hang_box > li:nth-child(1) #size { color: black; }
+
+#car .container .car_box > li > .hang_box > li:nth-child(1) #color { padding-right: 10px; }
+
+#car .container .car_box > li > .hang_box > li:nth-child(2) { width: 15%; border: 1px solid #ccc; text-align: center; line-height: 120px; }
+
+#car .container .car_box > li > .hang_box > li:nth-child(3) { width: 15%; border: 1px solid #ccc; text-align: center; line-height: 120px; }
+
+#car .container .car_box > li > .hang_box > li:nth-child(3) span { font-size: 28px; border: 1px solid #ccc; }
+
+#car .container .car_box > li > .hang_box > li:nth-child(4) { width: 15%; border: 1px solid #ccc; text-align: center; line-height: 120px; }
+
+#car .container .car_box > li > .hang_box > li:nth-child(4) #xiaoji { color: red; }
+
+#car .container .car_box > li > .hang_box > li:nth-child(5) { width: 15%; border: 1px solid #ccc; text-align: center; line-height: 120px; }
+
+#car .container .car_box > li > .hang_box > li:nth-child(5) span:first-child { color: red; }
+
+#car .container .car_box > li > .hang_box > li:nth-child(5) span:last-child { color: blue; }
+
+#car .container .car_box > li:first-child { height: 30px; width: 100%; }
+
+#car .container h6 { height: 40px; line-height: 40px; font-size: 26px; margin-top: 20px; margin-bottom: 20px; padding-left: 800px; }
+
+#car .container h6 span:last-child { color: orange; }
+
+#car .container h3 { padding-left: 700px; }
+
+#car .container h3 button { width: 100px; height: 30px; color: white; line-height: 30px; text-align: center; margin-left: 20px; }
+
+#car .container h3 #close_all { background: pink; }
+
+#car .container h3 #close_all a { color: green; }
+
+#car .container h3 #return { color: blue; background: white; }
+
+#car .container h3 #xiadan { color: white; background: orange; }

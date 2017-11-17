@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script type="text/javascript"src="../js/jquery-3.2.1.js"></script>
+        <script type="text/javascript"src="../js/login.js"></script>
+        <script type="text/javascript"src="../js/common.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+        <link rel="stylesheet" type="text/css" href="../css/login.css" />
+        <link rel="stylesheet" type="text/css" href="../css/iconfont.css" />
+        <link rel="stylesheet" type="text/css" href="../css/footer.css" />
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <div class="header_l fl">
+                    <span class="iconfont icon-shouye"></span>
+                    <span>多商网首页</span>
+                    <span>您好，欢迎来到多商网!</span>
+                    <span>[请登录]</span>
+                    <span>[免费注册]</span>
+
+                </div>
+                <div class="header_r fr">
+                    <p><span class="iconfont icon-gouwuche1"></span>购物车</p>
+                    <p><span class="iconfont icon-dianhua"></span>多商网APP</p>
+                </div>
+            </div>
+        </div>
+        <div id="logo">
+            <div class="container">
+                <img src="../images/register/logo.jpg"/>
+            </div>
+        </div>
+        <div id="sign">
+            <div class="container">
+                <div class="sign_box">
+                    <ul class="sign_nav">
+                        <li>
+                            <span>1</span>
+                            <span>使用手机/邮箱注册</span>
+                        </li>
+                        <li>
+                            <span>2</span>
+                            <span>设置用户信息</span>
+                        </li>
+                        <li>
+                            <span>3</span>
+                            <span>注册成功</span>
+                        </li>
+                    </ul>
+                    <div class="sign_msg">
+                        <label for="username">手机/邮箱：</label><input type="text"id="username" placeholder="手机/邮箱" /><span id="username_tell"></span><br />
+
+                        <label for="password">密码：</label><input type="password"id="password" placeholder="密码" /><span id="password_tell"></span><br />
+
+                        <label for="yzm" style="vertical-align: top;">验证码：</label><input type="text"id="yzm" placeholder="验证码" /><span id="yzm_show"></span><button id="reset">刷新</button><br />
+                        <span id="yzm_tell"></span>
+                        <div class="agree">
+                            <input type="checkbox"id="choose"/><label for="choose">已阅读并同意</label><span>《多商分销系统用户服务协议》</span><br />
+                            <button id="zhuce">
+                                立即注册，领取淘宝课程券
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </body>
+</html>

@@ -1,0 +1,63 @@
+#logo{
+    img{
+        margin-top:24px;
+        margin-left:66px;       
+    }
+}
+#register{
+    height: 450px;
+    img{
+        margin-top:24px;
+        margin-left:198px;
+    }
+    .zhuce{
+        width: 312px;
+        height: 266px;
+        border:1px solid #ccc;
+        margin-right:196px;
+        margin-top:24px;
+        padding:17px 17px;
+        #password,#username{
+            width: 275px;
+            height: 33px;
+            border:1px solid #ccc;
+            font-size:16px;
+            margin-bottom:27px;
+        }
+        .forget{
+            color:blue;
+            float:right;
+        }
+        button{
+            width: 275px;
+            height: 33px;
+            text-align: center;
+            line-height: 33px;
+            color:white;
+            background:#CA1622;
+            margin-top:6px;
+            margin-bottom:16px;
+        }
+        p{
+            padding-left:22px;
+            position:relative;
+            .wechat{
+                position:absolute;
+                display:block;
+                width: 18px;
+                height: 22px;
+                background:url('../images/register/wechat.png');
+                left:0px;
+                top:-1px;
+            }
+            span:nth-child(1){
+                float:left;
+            }
+            span:nth-child(2){
+                float:right;
+                color:blue;
+            }
+        }
+
+    }
+}
