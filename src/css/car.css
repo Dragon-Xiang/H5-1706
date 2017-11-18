@@ -46,11 +46,11 @@
 
 #car .container .car_box > li > .hang_box > li:nth-child(1) img { position: absolute; top: 10px; left: 18px; height: 59px; width: 59px; }
 
-#car .container .car_box > li > .hang_box > li:nth-child(1) #name { color: grey; }
+#car .container .car_box > li > .hang_box > li:nth-child(1) span:nth-child(2) { color: grey; }
 
-#car .container .car_box > li > .hang_box > li:nth-child(1) #color, #car .container .car_box > li > .hang_box > li:nth-child(1) #size { color: black; }
+#car .container .car_box > li > .hang_box > li:nth-child(1) span:nth-child(4) { color: black; }
 
-#car .container .car_box > li > .hang_box > li:nth-child(1) #color { padding-right: 10px; }
+#car .container .car_box > li > .hang_box > li:nth-child(1) span:nth-child(5) { color: red; }
 
 #car .container .car_box > li > .hang_box > li:nth-child(2) { width: 15%; border: 1px solid #ccc; text-align: center; line-height: 120px; }
 

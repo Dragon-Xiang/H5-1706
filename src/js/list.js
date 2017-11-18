@@ -63,8 +63,8 @@ jQuery(function($){
         xhr.open('get',`http://localhost/1201/api/list.php?category=${target}&pageNo=${pageNo}&num=${num}&status=${status}`,true);
         xhr.send();
         // 点击图片，把当前ID传参到详情页
-        $('.goods_box').on('click','li',function(){
-            var targetId=$(this).attr('data-guid');
+        $('.goods_box').on('click','img',function(){
+            var targetId=$(this).parent('li').attr('data-guid');
             var paramsId='?'+targetId;
             location.href='goods.html'+paramsId;
 
