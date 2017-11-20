@@ -86,7 +86,9 @@
             }
             datalist.push(goods);            
         }
-        Cookie.set('datalist',JSON.stringify(datalist));     
+        Cookie.set('datalist',JSON.stringify(datalist));
+        alert('哈哈，水鱼你给坑了啊');
+        location.href('car.html'); 
     });
     $('#header').load('header.html');
     $('#footer').load('footer2.html');
