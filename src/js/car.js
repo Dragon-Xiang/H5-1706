@@ -94,6 +94,9 @@ jQuery(function($){
         $('.car_box').children('li').slice(1,).remove();
         Cookie.remove('datalist');
     });
+    $('#xiadan').on('click',function(){
+        alert('水鱼,谢谢'+allmoney+'元');
+    });
     $('#header').load('header.html');
     $('#footer').load('footer2.html');
 });

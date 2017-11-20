@@ -16,7 +16,7 @@ jQuery(function($){
     //第一个
     $('.carousel').lyCarousel({imgs:['images/index/lunbo1.jpg','images/index/lunbo2.jpg','images/index/lunbo3.jpg','images/index/lunbo4.jpg','images/index/lunbo5.jpg','images/index/lunbo6.jpg'],width:528,height:266,duration:2000,type:'horizontal'});
     // 第二个
-    $('.carousel2').lyCarousel({imgs:['images/index/lunbo1.jpg','images/index/lunbo2.jpg','images/index/lunbo3.jpg','images/index/lunbo4.jpg','images/index/lunbo5.jpg','images/index/lunbo6.jpg'],width:528,height:200,duration:2000,type:'horizontal'});
+    $('.carousel2').lyCarousel({imgs:['images/index/lunbo6.jpg','images/index/lunbo5.jpg','images/index/lunbo4.jpg','images/index/lunbo3.jpg','images/index/lunbo2.jpg','images/index/lunbo1.jpg'],width:528,height:200,duration:2000,type:'horizontal'});
     // Nav的Tab标签切换
      var $gg_newBox=$('.gg_new').children('div');
         $gg_newBox.slice(1).hide();
